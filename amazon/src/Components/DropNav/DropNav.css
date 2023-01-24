@@ -1,0 +1,25 @@
+.nav2 {
+    margin: 7px;
+}
+
+.nav2 ul {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 7px;
+}
+
+.nav2 li:hover  {
+    opacity: .7;
+}
+
+.hide {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .hide {
+        display: block;
+    }
+}
