@@ -7,8 +7,7 @@ const UnderNav = () => {
     return (
         <div className="nav2">
             <ul>
-                <li><MenuIcon /></li>
-                <li>All</li>
+                <li className='nav2__menu'><MenuIcon /><li>All</li></li>
                 <li>Clinic</li>
                 <li>Customer Service</li>
                 <li>Best Sellers</li>

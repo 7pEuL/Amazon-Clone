@@ -1,4 +1,5 @@
 import React from 'react'
+import PlaceOutlined from '@mui/icons-material/PlaceOutlined';
 import "./Header.css"
 
 import Images from '../../Data/Images';
@@ -6,9 +7,13 @@ import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
     return (
-        <div className="Header">
+        <div className="header">
             <div className="header__logo">
                 <img src={Images.AmazonLogo} alt="" />
+            </div>
+
+            <div className="header__location">
+                < PlaceOutlined className="header__optionLocationColor" />
             </div>
 
             <div className="header__option header__optionHello">
