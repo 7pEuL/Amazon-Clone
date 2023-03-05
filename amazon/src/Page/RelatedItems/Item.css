@@ -1,0 +1,52 @@
+.related__itemPhoto img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    /* margin-top: 10px; */
+}
+
+.related__itemPhoto img:hover {
+    scale: 1.1;
+}
+
+.related__itemDescription {
+    width: 200px;
+}
+
+.related__items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+    border-bottom: 1px solid #eee;
+}
+
+.related__items .fs-14 {
+    font-size: 14px;
+}
+
+.related__items .fs-12 {
+    font-size: 12px;
+}
+
+.related__items .fs-13 {
+    font-size: 13px;
+}
+
+.related__itemsButton button {
+    font-size: 11px;
+    width: 80px;
+    height: 20px;
+    text-transform: capitalize;
+    /* background: coral; */
+}
+
+.related__itemsButton:hover {
+    scale: 1.03;
+}
+
+.related__itemsButton svg {
+    font-size: 13px;
+}

@@ -1,0 +1,30 @@
+.quantity {
+    width: 74px;
+    padding: 5px;
+    padding-top: 1px;
+    font-size: 13px;
+    /* font-family: sans-serif; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    appearance: none;
+    background-color: #eee;
+    box-shadow: 2px 2px 2px 0px #00000033;
+}
+
+.quantity select:hover,
+.quantity option:hover,
+.quantity:hover {
+    background-color: #eed;
+}
+
+.quantity select {
+    font-size: 12px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.quantity option {
+    font-size: 15px;
+    background-color: #eee;
+}

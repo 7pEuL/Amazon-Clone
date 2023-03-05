@@ -5,6 +5,10 @@
 
 body {
   background-color: #E3E6E6;
+  /* background-image: linear-gradient(180deg, #E3E6E6, #0b1923); */
+
+  /* background-image: linear-gradient(to right, #ff000096, #ffa6008e, #ffff0096, #008000ab, #0000ffa3, #4c0082a5, #ee82eeaf); */
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

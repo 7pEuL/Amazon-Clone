@@ -2,29 +2,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 10px;
     padding: 20px;
     width: 100%;
     min-height: 100%;
-    max-width: 400px;
-    background-color: white;
-    z-index: 1;
-    box-shadow: 0 6px 18px -9px #000000bf;
+    max-width: 300px;
+    /* z-index: 1; */
+    background: white;
+    box-shadow: 0 6px 18px -9px #00e5ff;
+    border: 1px solid #fb00ff2b;
+    border-radius: 7px;
     transition: transform 0.1s ease-in;
-}
-
-.product__title {
-    font-size: 1rem;
+    text-align: center;
+    /* border-radius: 10%; */
+    /* border-bottom-left-radius: 30%; */
+    /* border-bottom-right-radius: 30%; */
 }
 
 .product:hover {
     transform: scale(1.05);
 }
 
+.product__title {
+    font-size: 1rem;
+}
+
+.product__title {
+    text-shadow: 1px 1px 1px #f5f7f3;
+    font-weight: 500;
+}
+
+.product__title:hover {
+    text-shadow: 1px 1px 1px #b6e8f2;
+}
+
 .product__img img {
-    max-height: 200px;
+    max-height: 300px;
+    /* max-width: 500px; */
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: contain;
     margin-top: 10px;
 }
@@ -38,12 +56,24 @@
     margin-top: 5px;
 }
 
+.product__price b {
+    margin-bottom: 5px;
+    color: #c79b2a;
+}
+
 .product__rating {
     color: #f0c14b;
     padding-top: 3px;
 }
 
 .product__button button {
-    background: #f0c14b;
-    font-size: 13px;
+    /* background: #f0c14b; */
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.product__button svg {
+    font-size: 17px;
+    margin-top: 2px;
 }

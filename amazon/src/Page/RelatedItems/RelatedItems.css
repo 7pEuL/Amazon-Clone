@@ -1,0 +1,57 @@
+.related {
+    width: 305px;
+    position: absolute;
+    right: 15px;
+    z-index: -100;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+@media (min-width: 546px) {
+    .related {
+        width: 305px;
+        position: absolute;
+        right: 90px;
+        z-index: -100;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+}
+
+@media (min-width: 768px) {
+    .related {
+        width: 305px;
+        right: 33px;
+    }
+}
+
+@media (min-width: 992px) {
+    .related {
+        right: 33px;
+        z-index: -100;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+}
+
+/* @media (min-width: 1200px) {
+    .related {
+        position: absolute;
+        right: 200px;
+        padding: 20px;
+    }
+} */
+
+@media (min-width: 1440px) {
+    .related {
+        right: 229px;
+        padding: 20px;
+    }
+}
+
+.related__title b {
+    font-size: 21px;
+}

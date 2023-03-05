@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "amazoon-replica-eyu",
+    "staging": "amazoon-replica-eyu"
+  },
+  "targets": {},
+  "etags": {}
+}

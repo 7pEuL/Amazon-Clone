@@ -1,0 +1,65 @@
+.order {
+  width: 270px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+}
+
+.order h2 {
+  color: dodgerblue;
+}
+
+.order p {
+  color: rgb(0, 155, 103);
+  font-size: 11px;
+}
+
+.order__id {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  color: coral !important;
+}
+
+.order__total {
+  font-weight: 500;
+  text-align: right;
+  margin-top: 7px;
+  color: dodgerblue;
+}
+
+@media (min-width: 768px) {
+  .order {
+    width: 500px;
+    padding: 40px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+  }
+
+  .order h2 {
+    color: dodgerblue;
+  }
+
+  .order p {
+    color: rgb(0, 155, 103);
+  font-size: 14px;
+  }
+
+  .order__id {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: coral !important;
+  }
+
+  .order__total {
+    font-weight: 500;
+    text-align: right;
+    margin-top: 7px;
+    color: dodgerblue;
+  }
+}

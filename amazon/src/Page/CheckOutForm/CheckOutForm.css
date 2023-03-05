@@ -1,0 +1,41 @@
+.Order__FormCardInput {
+    width: 244px;
+    padding: 3px 0;
+}
+
+.Order__FormCardError {
+    color: red;
+}
+
+@media (min-width: 985px) {
+    .checkOutLocation {
+        display: flex;
+        justify-content: center;
+        margin-right: 210px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .checkOutLocation {
+        display: flex;
+        justify-content: center;
+        margin-right: 190px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .checkOutLocation {
+        display: flex;
+        justify-content: center;
+        margin-right: 150px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .checkOutLocation {
+        display: flex;
+        justify-content: center;
+        margin-right: 150px;
+    }
+}

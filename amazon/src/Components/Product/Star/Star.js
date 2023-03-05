@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 const Star = ({ text }) => {
-    const [value, setValue] = React.useState(2);
+    const [value, setValue] = React.useState(3);
 
     return (
         <Box

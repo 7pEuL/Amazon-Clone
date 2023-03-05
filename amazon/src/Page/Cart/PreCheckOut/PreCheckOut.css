@@ -1,0 +1,284 @@
+.preCheckout {
+    background: #fff;
+    width: 270px;
+    /* height: 220px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    /* gap: 16px; */
+    padding-top: 20px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.preCheckout__img img {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.preCheckout__addRemoveSave {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.preCheckout__delete button {
+    height: 30px;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.preCheckout__save button {
+    height: 30px;
+    font-size: 10px;
+    padding: 7px;
+}
+
+.preCheckout__detail {
+    width: 270px;
+}
+
+.preCheckout__itemsCheckBox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.preCheckout__itemsCheckBox span {
+    padding: 13px 5px 13px 9px;
+    width: 5px;
+    height: 7px;
+}
+
+.preCheckout__title {
+    font-size: 18px;
+}
+
+.preCheckout__inStock,
+.preCheckout__shipping,
+.preCheckout__itemsCheckBox {
+    font-size: 12px;
+    padding: 2px;
+}
+
+.preCheckout__compare {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.preCheckout__itemsCheckBox a,
+.preCheckout__compare a {
+    color: #103308;
+    text-decoration: none;
+}
+
+.preCheckout__itemsCheckBox a:hover,
+.preCheckout__compare a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 546px) {
+    .preCheckout {
+        background: #fff;
+        width: 570px;
+        /* height: 220px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* gap: 16px; */
+        padding-top: 20px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .preCheckout__img img {
+        object-fit: contain;
+        width: 180px;
+        height: 180px;
+    }
+
+    .preCheckout__addRemoveSave {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .preCheckout__delete button {
+        height: 30px;
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    .preCheckout__save button {
+        height: 30px;
+        font-size: 10px;
+        padding: 7px;
+    }
+
+    .preCheckout__detail {
+        width: 270px;
+    }
+
+    .preCheckout__itemsCheckBox {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .preCheckout__itemsCheckBox span {
+        padding: 13px 5px 13px 9px;
+        width: 5px;
+        height: 7px;
+    }
+
+    .preCheckout__title {
+        font-size: 18px;
+    }
+
+    .preCheckout__inStock,
+    .preCheckout__shipping,
+    .preCheckout__itemsCheckBox {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .preCheckout__compare {
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .preCheckout__itemsCheckBox a,
+    .preCheckout__compare a {
+        color: #103308;
+        text-decoration: none;
+    }
+
+    .preCheckout__itemsCheckBox a:hover,
+    .preCheckout__compare a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 768px) {
+    .preCheckout {
+        background: #fff;
+        width: 270px;
+        /* height: 220px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* gap: 16px; */
+        padding-top: 20px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .preCheckout__img img {
+        object-fit: contain;
+        width: 180px;
+        height: 180px;
+    }
+
+    .preCheckout__addRemoveSave {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .preCheckout__delete button {
+        height: 30px;
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    .preCheckout__save button {
+        height: 30px;
+        font-size: 10px;
+        padding: 7px;
+    }
+
+    .preCheckout__detail {
+        width: 270px;
+    }
+
+    .preCheckout__itemsCheckBox {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .preCheckout__itemsCheckBox span {
+        padding: 13px 5px 13px 9px;
+        width: 5px;
+        height: 7px;
+    }
+
+    .preCheckout__title {
+        font-size: 18px;
+    }
+
+    .preCheckout__inStock,
+    .preCheckout__shipping,
+    .preCheckout__itemsCheckBox {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .preCheckout__compare {
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .preCheckout__itemsCheckBox a,
+    .preCheckout__compare a {
+        color: #103308;
+        text-decoration: none;
+    }
+
+    .preCheckout__itemsCheckBox a:hover,
+    .preCheckout__compare a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 992px) {
+    .preCheckout {
+        background: #fff;
+        width: 570px;
+        /* height: 220px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* gap: 16px; */
+        padding-top: 20px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #eaeaea;
+    }
+}
+
+@media (min-width: 1200px) {
+    .preCheckout {
+        /* width: 900px; */
+    }
+}
+
+@media (min-width: 1440px) {
+    .preCheckout {
+        justify-content: flex-start;
+        gap: 20px;
+        width: 1000px;
+        padding-right: 20px;
+    }
+
+    .preCheckout__price {
+        margin-left: 410px;
+    }
+}

@@ -1,0 +1,166 @@
+.signIn__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.signIn {
+    background: white;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #d3d3d3;
+    box-shadow: 0px 0px 1000px 1000000px #fcfcfc;
+}
+
+.signIn__container {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+}
+
+.signIn__container>h1 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.signIn__container>form>label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.signIn__container>form>input {
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 1px;
+    padding-left: 7px;
+    background-color: white;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+/* .signIn__email {
+    margin-bottom: 20px;
+}
+
+.signIn__password {
+    margin-bottom: 20px;
+}
+
+.signIn__container>p {
+    margin-top: 15px;
+    font-size: 12px;
+} */
+
+.signIn__signInButton {
+    font-size: 14px;
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 5px;
+}
+
+.signIn__registerButton {
+    border-radius: 2px;
+    width: 340px;
+    padding: 10px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #aaa;
+    background: #f4f7f9;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.signIn__agree b {
+    color: #0066c0;
+    font-weight: 500;
+}
+
+.signIn__agree b:hover {
+    text-decoration: underline;
+    color: #ff7d59;
+}
+
+.signIn__needHelp {
+    padding-top: 17px;
+}
+
+.signIn__needDrop b {
+    padding-top: 7px;
+    font-size: 12px;
+    color: #0066c0;
+    font-weight: 400;
+}
+
+.signIn__needDrop b:hover {
+    text-decoration: underline;
+    color: #ff7d59;
+}
+
+.signIn__needDropSide {
+    padding-left: 17px;
+}
+
+.signIn__needHelp {
+    display: flex;
+    align-items: center;
+}
+
+.signIn__needHelp svg {
+    padding-top: 7px;
+    color: #000;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.signIn__newToAmazon {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-top: 21px;
+    font-size: 11px;
+    color: #636161;
+}
+
+.signIn__newToAmazon hr {
+    width: 100px;
+    margin-top: 7px;
+    color: #636161;
+}
+
+.signIn__footer {
+    margin-top: 25px;
+    height: 100vh;
+    width: 100vw;
+    /* box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2); */
+}
+
+.signIn__footer small {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.signIn__footerList {
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

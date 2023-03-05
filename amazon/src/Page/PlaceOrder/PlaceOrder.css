@@ -1,0 +1,65 @@
+.PlaceOrder {
+    position: absolute;
+    top: 222px;
+    width: 300px;
+    margin: 33px;
+    /* display: flex; */
+}
+
+.PlaceOrder__titleEmpty h1 {
+    font-weight: 400;
+}
+
+.PlaceOrder__titleFull {
+    font-weight: 400;
+}
+
+.PlaceOrder__title {
+    font-size: 30px;
+}
+
+.PlaceOrder hr {
+    color: #000;
+}
+
+.PlaceOrder__titleAdd {
+    width: 300px;
+    padding: 30px;
+    background: #fff;
+}
+
+@media (min-width: 768px) {
+    .PlaceOrder {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .PlaceOrder {
+        width: 570px;
+    }
+
+    .PlaceOrder__titleAdd {
+        width: 570px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .PlaceOrder {
+        left: 198px;
+    }
+
+    .PlaceOrder__titleAdd {
+        width: 900px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .PlaceOrder {
+        width: 800px;
+    }
+
+    .PlaceOrder__titleAdd {
+        width: 1027px;
+    }
+}
