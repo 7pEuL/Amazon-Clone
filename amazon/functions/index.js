@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 
 const stripe = require("stripe")(
-  "sk_test_51MXrGRI9zUlgoAj0HtGlClXZ6v9YNip3LT4Owj65i23wZDSS1uQ6tosXalIlQNg8g1nqRkMbm4ATiFtj8Xx098RB00Vuhea2eD"
+  "sk_test_"
 );
 
 const app = express();

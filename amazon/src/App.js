@@ -17,7 +17,7 @@ import SignIn from "./Page/SignIn/SignIn";
 import Orders from "./Page/Orders/Orders";
 
 const stripePromise = loadStripe(
-  `pk_test_51MXrGRI9zUlgoAj06rpe3XZKT8kTmFVbysetyp44qyopLZGDcwDASRuORrKI0Gi9kDq6CPonVNgqVX2bkx5pAt1e00w6gJbGVM`
+  `pk_test_`
 );
 
 function App() {
